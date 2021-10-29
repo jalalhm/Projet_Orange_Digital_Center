@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form action="/dummy.html">
+      <!--hna hadi kadir lina les zone pour ecrire tel est lexemple de log in f facebook username ou mot de passe . action dial achno bghitih ydir par exemple ana dert dossier akhor bach mli nbrek ela submit ydini and dosi flan  flani -->
+      <label> Email:<input type="text" /></label>
+      <label> Password:<input type="password" /></label>
+      <input type="submit" value="submit" />
+    </form>
+    <form>
+      <h4>Gender:</h4>
+      <!-- hna had la cmd kadir 2 dial choix a cohé sous forme dial khanat . vous avez le droit de choisir un seule vhoix -->
+      <input type="radio" name="gender" id="male" />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" />
+      <label for="female">Female</label>
+    </form>
+    <form action=".">
+      <h4>Select:</h4>
+      <!--hna la meme vhose mais on pourra choisir plus d un choix (input type checkbox)-->
+      <input type="checkbox" name="bac" id="bac" />
+      <label for="bac">Bac+1</label>
+      <input type="checkbox" name="sports" id="cricket" />
+      <label for="cricket">Bac+2</label>
+      <input type="checkbox" name="sports" id="basketball" />
+      <label for="basketball">Bac+3</label>
+    </form>
+    <form action=".">
+      <label for="fille-select"><h4>Upload:</h4></label>
+      <!--il permet de liee le texte upload ou apart avec le fonction -->
+      <input type="file" name="upload" id="fille-select" multiple />
+      <!--had la cmd il nous permettons de selectionner des ficchier ou les importer depuis notre navigateur depuis la button vhoisir des fichiers --><!--had latribut dial multiple il nous permettre de faire choisir plus que un fivhiers simultaniment ou au meme temps-->
+    </form>
+
+    <form action=".">
+      <label for="adress"><h4>Adress:</h4></label>
+      <!-- had cmd howa li lia lina adresse blblasa dial lktba-->
+      <!--lieé le texte adress avec la fonction ou on ecrire ladress-->
+      <textarea rows="3" cols="30" name="adress" id="adress"></textarea>
+      <!--il permet de creeer la foncionalité de lemplacement ou en ecrire ladresse (had cmd kat3tik blasa fin tkteb ladresse mn lkhr)-->
+    </form>
+  </body>
+  <form action=".">
+    <label for="city"><h4>City:</h4></label>
+    <select name="city" id="city">
+      <option value="Beni mellal">Beni mellal</option>
+      <option value="rabat">rabat</option>
+      <option value="casablanca">casablanca</option>
+    </select>
+  </form>
+  <form action="action.php" method="post">
+<label for="Prenom">Prenom:</label>
+<input type="text" name="prenom" id="prenom">
+<button type="submit">submit</button>
+<button type="reset">reset</button> <!-- cette cmd nous permettons de vider la zone text-->>
+
+  </form>
+  <form action=".">
+      <fieldset>
+          <legend> <h4>Contact dtails</h4> </legend>
+          <label> Email adress: <input type="email" name="Email"></label>
+          <label> phone number: <input type="text" name="phone"></label>
+      </fieldset>
+  </form>
+  
+</html>

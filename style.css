@@ -1,0 +1,28 @@
+/* initiations des variiables */:root{
+    --o: orange;  /* ملي كنبغيو نغيرو لون بزاااغ ديال الجوايج كنلخصو اللككومنوند ب root--nom wkadir color*/
+}
+
+h1{
+    color: var(--o);
+}
+}
+h5{
+    color: aqua;
+}
+h4{
+    color: rgb(255, 115, 0);
+}
+*{
+    box-sizing: border-box; /* had la cms ne permettons de fair le content de la page toujour visible meme on redire le size de fenetre يعني واخا كتصغر لونغل كيبقا كاع داكشي كيبان وسها */
+    padding: 0; /*hada dial lfaragh entre les element */
+    margin: 0;
+}
+p{
+    color: brown;   /*   هاد الحركة لي درت دابا اشنو  غدير */
+} /*غتمشي عند اي باراعراف ف الضوسي لي انا مضاغي فيه ال سي اس اس غتلونو بال البني */
+.blue{       /*daba achno w9ee3 wahd tag deja dernah bl class f dossier dial indes mchina ktbna 9damo class="blue" */ 
+    color: blue;/*hna dwina meah wglna lih rej3ouuu blue */
+}
+p.blue{
+    color:red;    /*hna hit deja ont est tage 2 fois fans la fichier index hna glna lo la asidi dok jouj li tagina li paragraph mnom diro lina b red */
+}

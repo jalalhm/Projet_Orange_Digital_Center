@@ -1,0 +1,28 @@
+h1+p {      /* hadi nous permettons de faire colorer le paragraph p qui situe te7t h1 */
+color: blue;
+font-size: 18px
+}
+ul.task + p{
+    color:#f0f;
+    text-indent: 30px;
+}
+
+h1 ~ p {
+    color:orange;
+    font-size: 18px;
+
+}
+ul.task ~ p{
+    color: #f0f;
+    text-indent: 30px;
+}
+body{    /* hadi dial kifavh ndiro tswira f arriere plan la7d dernaha f body bachh tched f surfacee kamla*/
+    background-image: url('https://www.wallpapertip.com/wmimgs/83-832310_louisiana-swamp-wallpaper-4k-background-images-for-editing.jpg');
+
+}
+h1 {
+    font-size: 8pc;
+}
+p{                                /*hadi dial controler le size dial l ketba*/
+    font-size: 14px;
+}
