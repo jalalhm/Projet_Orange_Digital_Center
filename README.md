@@ -63,3 +63,5 @@ Certainly! Here's a description for a GitHub project site for a web e-commerce p
 - 🌟 Thanks to our amazing contributors and community
 
 Feel free to customize the icons and links according to your actual project details.
+
+![image](https://github.com/jalalhm/Projet_Orange_Digital_Center/assets/93390207/70403934-3761-44bf-b801-2022a633b35d)
